@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 const connectToDB = async () => 
-mongoose.connect('mongodb+srv://Saqlain:<password>@cluster0.jrwgn.mongodb.net/bootcampDB?retryWrites=true&w=majority',
-    {auth:{user: "Saqlain",password: "Asphalt8%"},
+mongoose.connect('url',
+    {auth:{user: "Saqlain",password: "123456"},
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
